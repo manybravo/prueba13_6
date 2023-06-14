@@ -1,0 +1,50 @@
+:root{
+    --font:2rem;
+    --backgr: rgb(33, 114, 87);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    /*Agrego el flex-wrap*/
+    flex-wrap: wrap;
+}
+
+.box{
+    /*saco el width*/
+   /* width: 10rem;*/
+   height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+ 
+}
+/*Con Flex-grow es para crecer los box que necesito*/
+.box1{
+    background-color: rgb(104, 80, 190);
+    font-size: var(--font);
+}
+.box2{
+    background-color: var(--backgr);
+}
+.box3{
+    background-color: rgb(225, 164, 85);
+}
+.box4{
+    background-color: aquamarine;
+}
+.box5{
+    background-color: rgb(62, 36, 157);
+}
+.box6{
+    background-color: rgb(8, 121, 83);
+}

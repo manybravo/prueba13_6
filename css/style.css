@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    height: 50vh;
+    align-items:stretch;
+    justify-content: center;
+}
+/*Esto es con el order*/
+.box{
+    width: 10rem;
+   /* height: 10rem;*/
+}
+.box1{
+    background-color: aquamarine;
+    order: 1;
+}
+.box2{
+    background-color: rgb(224, 92, 189);
+}
+.box3{
+    background-color: rgb(225, 164, 85);
+    order: 5;
+}
+.box4{
+    background-color: aquamarine;
+}
+.box5{
+    background-color: rgb(62, 36, 157);
+}
+.box6{
+    background-color: rgb(8, 121, 83);
+    order: 2;
+}
